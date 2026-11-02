@@ -1,0 +1,16 @@
+{
+  "account": "",
+  "password": "",
+  "provider": "校园联通",
+  "portal_host": "10.2.5.251",
+  "login_port": 0,
+  "probe_urls": [
+    "http://connect.rom.miui.com/generate_204",
+    "http://wifi.vivo.com.cn/generate_204",
+    "http://captive.apple.com/hotspot-detect.html"
+  ],
+  "interval": 20,
+  "custom_login_url": "",
+  "custom_login_method": "GET",
+  "custom_login_body": ""
+}

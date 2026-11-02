@@ -1,0 +1,28 @@
+# Private configuration and handover notes
+/config.json
+/config.*.local.json
+/交接文档.md
+/.env
+/.env.*
+!/.env.example
+
+# Logs, screenshots and captured authentication requests may contain credentials
+/logs/
+*.log
+
+# Local dependencies and caches
+/libs/
+/.venv/
+/venv/
+/.pipcache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local editor and agent settings
+/.idea/
+/.vscode/
+/.codex/
+/.agents/
+Thumbs.db
+.DS_Store
